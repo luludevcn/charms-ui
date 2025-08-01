@@ -13,18 +13,18 @@ npm install charms-ui
 Import and use components in your React project:
 
 ```tsx
-import { Button } from 'charms-ui';
+import { Badge } from 'charms-ui';
 // Or import on demand
-import { Button } from 'charms-ui/Button';
+import { Badge } from 'charms-ui/Badge';
 
 export default function App() {
-  return <Button>Click me</Button>;
+  return <Badge title={'visiters'} count={20003} leftBg='bg-gray-600' rightBg='bg-red-600' href='http://luludev.cn'></Badge>;
 }
 ```
 
 ## Components
 
-- Button
+- Badge
 - More components coming soon...
 
 ## On-demand Import
@@ -32,7 +32,7 @@ export default function App() {
 You can import components directly:
 
 ```tsx
-import { Button } from 'charms-ui/Button';
+import { Badge } from 'charms-ui/Badge';
 ```
 
 ## TypeScript Support

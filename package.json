@@ -18,9 +18,9 @@
       "import": "./dist/index.es.js",
       "types": "./dist/types/index.d.ts"
     },
-    "./Button": {
-      "import": "./dist/Button.es.js",
-      "types": "./dist/types/Button.d.ts"
+    "./Badge": {
+      "import": "./dist/Badge.es.js",
+      "types": "./dist/types/Badge.d.ts"
     }
   },
   "peerDependencies": {
