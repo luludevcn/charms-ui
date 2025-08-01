@@ -20,7 +20,7 @@ export default defineConfig({
     outDir: 'dist',
     lib: {
       entry: {
-        Button: resolve(__dirname, 'src/components/Button/index.tsx'),
+        Badge: resolve(__dirname, 'src/components/Badge/index.tsx'),
         index: resolve(__dirname, 'src/index.ts')
       },
       formats: ['es'],
