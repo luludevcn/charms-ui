@@ -27,6 +27,7 @@ export default defineConfig({
       name: 'CharmsUI',
       fileName: (format, entryName) => `${entryName}.${format}.js`
     },
+    cssCodeSplit: true,
     rollupOptions: {
       external: ['react', 'react-dom'],
       output: {
