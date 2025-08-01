@@ -25,7 +25,6 @@ export default function App() {
 ## Components
 
 - Button
-- Card
 - More components coming soon...
 
 ## On-demand Import
