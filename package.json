@@ -26,6 +26,9 @@
   "files": [
     "dist"
   ],
+  "sideEffects": [
+    "*.css"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -40,7 +43,8 @@
     "./Badge": {
       "import": "./dist/Badge.es.js",
       "types": "./dist/types/Badge.d.ts"
-    }
+    },
+    "./styles": "./dist/index.css"
   },
   "peerDependencies": {
     "react": "^19.1.0",
