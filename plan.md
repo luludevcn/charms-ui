@@ -55,25 +55,6 @@ export const VisitorBadge = ({
 
 ### 3.2 特色组件列表
 
-1. **Sparkle Button** 闪光按钮
-   - 鼠标悬停时产生粒子闪光效果
-   - 可配置闪光颜色和密度
-
-2. **Live Reaction** 实时反应组件
-   - 类似社交媒体的实时表情反应
-   - 支持自定义表情集
-
-3. **Subtle Spotlight** 柔和聚光灯
-   - 为页面元素添加柔和的聚光灯效果
-   - 可跟随鼠标或固定位置
-
-4. **Confetti Checkbox** 彩带复选框
-   - 选中时触发微型彩带庆祝效果
-
-5. **Glow Avatar** 发光头像
-   - 头像周围可配置光晕效果
-   - 支持呼吸灯动画
-
 6. **Whisper Tooltip** 耳语式提示框
    - 极简的渐现提示框
    - 支持8个定位方向
@@ -96,10 +77,6 @@ export const VisitorBadge = ({
 2. **Floating Charm** 浮动小图标
    - 随机浮动的小图标装饰
    - 可配置图标集和浮动范围
-
-3. **Ripple Click** 涟漪点击效果
-   - 点击时产生涟漪扩散效果
-   - 比主流UI库的更细腻实现
 
 ## 4. 项目结构
 

@@ -22,6 +22,17 @@ export default function App() {
 }
 ```
 
+```tsx
+import { Recount } from 'charms-ui'
+<Recount text={recountText} speed={200}
+        delay={3000}
+        onTypingStart={() => console.log('Typing started')}
+        onTypingEnd={() => console.log('Typing ended')}
+        className='text-xl font-bold'
+        style={{ color: '#8b82f6' }}></Recount>
+
+```
+
 ## Components
 
 - Badge
