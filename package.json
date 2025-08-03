@@ -44,6 +44,10 @@
       "import": "./dist/Badge.es.js",
       "types": "./dist/types/Badge.d.ts"
     },
+    "./Recount": {
+      "import": "./dist/Recount.es.js",
+      "types": "./dist/types/Recount.d.ts"
+    },
     "./styles": "./dist/index.css"
   },
   "peerDependencies": {

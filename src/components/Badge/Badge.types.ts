@@ -1,7 +1,7 @@
 
 export interface BadgeProps extends React.HTMLAttributes<HTMLElement> {
     title: string;
-    count?: number;
+    value?: number | string;
     leftBg?: Colors;
     rightBg?: Colors;
     href?: string;

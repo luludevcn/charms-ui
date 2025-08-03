@@ -11,7 +11,12 @@ function App() {
     <div className='m-auto w-1/2 mt-28'>
       <h1 className='text-3xl font-bold mb-4'>Charms UI</h1>
       <p className='text-gray-600 mb-6'>A collection of reusable React components.</p>
-      <Badge title={'visiters'} count={20003} leftBg='bg-gray-600' rightBg='bg-red-600' href='http://luludev.cn'></Badge>
+      <div className='flex gap-2'>
+        <Badge title={'visiters'} value={20003} leftBg='bg-gray-600' rightBg='bg-red-600' href='http://luludev.cn'></Badge>
+        <Badge title={'License'} value={'MIT'} leftBg='bg-gray-600' rightBg='bg-blue-600' href='http://luludev.cn'></Badge>
+        <Badge title={'username'} value={'luludev'} leftBg='bg-gray-600' rightBg='bg-green-600' href='http://luludev.cn'></Badge>
+        <Badge title={'Languages'} value={'TS/JS/PHP'} leftBg='bg-gray-600' rightBg='bg-yellow-600' href='http://luludev.cn'></Badge>
+      </div>
       <br></br>
       <Recount text={recountText} speed={50}
         delay={1000}
