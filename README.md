@@ -18,7 +18,7 @@ import { Badge } from 'charms-ui';
 import { Badge } from 'charms-ui/Badge';
 
 export default function App() {
-  return <Badge title={'visiters'} count={20003} leftBg='bg-gray-600' rightBg='bg-red-600' href='http://luludev.cn'></Badge>;
+  return <Badge title={'visiters'} value={20003} leftBg='bg-gray-600' rightBg='bg-red-600' href='http://luludev.cn'></Badge>;
 }
 ```
 

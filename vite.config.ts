@@ -21,6 +21,7 @@ export default defineConfig({
     lib: {
       entry: {
         Badge: resolve(__dirname, 'src/components/Badge/index.tsx'),
+        Recount: resolve(__dirname, 'src/components/Recount/index.tsx'),
         index: resolve(__dirname, 'src/index.ts')
       },
       formats: ['es'],
